@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="bg-gray-100">
     <header
       class="bg-gradient-to-r from-yellow-400 to-yellow-500 text-white px-6 py-4 flex justify-between items-center"
     >
@@ -24,7 +24,7 @@
           </span>
           <input
             type="search"
-            placeholder="Seacrch..."
+            placeholder="Search..."
             class="bg-yellow-200 px-8 py-1 rounded-md placeholder:text-yellow-700 focus:outline-yellow-800"
           />
         </div>
@@ -33,5 +33,41 @@
         </div>
       </div>
     </header>
+    <aside class="fixed bg-white max-w-3xs w-full mx-4 my-8 p-6 rounded-xl">
+      <nav class="space-y-4">
+        <!--space-x and space-y use for giving space between children-->
+        <a
+          href="#"
+          class="block text-gray-600 px-4 py-3 hover:bg-gray-100 rounded-lg active:text-gray-800"
+          >Dashboard</a
+        >
+        <a
+          href="#"
+          class="block text-gray-600 px-4 py-3 hover:bg-gray-100 rounded-lg active:text-gray-800"
+          >Analytics</a
+        >
+        <a
+          href="#"
+          class="block text-gray-600 px-4 py-3 hover:bg-gray-100 rounded-lg active:text-gray-800"
+          >Reports</a
+        >
+        <a
+          href="#"
+          class="block text-gray-600 px-4 py-3 hover:bg-gray-100 rounded-lg active:text-gray-800"
+          >Setting</a
+        >
+      </nav>
+      <button
+        type="button"
+        class="bg-red-500 text-white hover:bg-red-600 px-4 py-3 mt-6 w-full rounded-lg"
+      >
+        Logout
+      </button>
+    </aside>
+    <main>
+      <div></div>
+    </main>
   </body>
+  <!-- notes -->
+  <!--  -->
 </html>
